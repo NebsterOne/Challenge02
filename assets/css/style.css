@@ -33,6 +33,11 @@ body {
     font-size: 100%;
   }
 
+  .intro p {
+    border-bottom: solid black 2px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
   
   nav ul {
     display: flex;
@@ -243,7 +248,7 @@ img{
   
 @media screen and (max-width: 768px) {
     header,
-    main, .workdone,  nav ul {
+    main, .workdone,  footer, nav ul {
       flex-direction: column;
     }
     }
