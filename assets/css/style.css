@@ -119,9 +119,10 @@ body {
     /* display: inline-block; */
     /* flex-wrap: wrap; */
     /* flex-direction: row; */
-    /* border:solid blue 5px; */
+    border:solid blue 5px;
     justify-content: space-evenly;
-    background-color: #501616;
+    /* background-color: #501616; */
+  
     
        
 }
@@ -194,8 +195,8 @@ body {
   color: rgb(31, 30, 30);
 }
 
-.topwork:hover,
-.topwork:hover .topwork heads {
+.topwork:hover, 
+.topwork heads {
   box-shadow: inset 0px 0px 8px rgb(148, 148, 148), 0 0 15px rgb(63, 57, 57);
 }
 
