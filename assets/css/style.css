@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 1.3;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   }
   
   header {
@@ -53,7 +55,7 @@ body {
     
     width: 100%;
     padding: 8px;
-    background-color: #dddddd;
+    background-color: #ffffff;
 
 
   }
@@ -82,15 +84,6 @@ body {
     font-size: 110%;
   }
   
-
-  
-
-
- /* container .topwork{ */
-    
-    border:solid red 5px;
-    height: 30%;  }  
-
 
 .above {
   width: 100%;
@@ -128,7 +121,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     border-radius: 1px;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out; 
    
 }
 
@@ -139,9 +132,6 @@ body {
 
 .workdone heads {
   display: flex;
-  /* width: %; */
-  /* text-align: center;
-  align-self: center; */
   justify-content: space-evenly;
   align-items: center;
   padding: 3%;
@@ -151,32 +141,53 @@ body {
   color: rgb(31, 30, 30);
 }
 
-
 .topwork {
   flex: 0 0 100%;
   border: solid red 4px;
   height: 20%;
-
+  margin-bottom: 60px;
 }
+
+.topwork div {
+
+  width: 29%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 1px;
+  transition: all 0.6s ease-in-out; 
+ 
+}
+
 
 
 .topwork img{
   width: 100%;
-  height: 100%;
+  height: 90%;
+}
+.topwork heads {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3%;
+  background-color: #fcfcfc;
+  border: solid rgb(199, 198, 194) 2px;
+  border-radius: 1px;
+  color: rgb(31, 30, 30);
+}
 
-
+.topwork:hover,
+.topwork:hover .topwork heads {
+  box-shadow: inset 0px 0px 8px rgb(148, 148, 148), 0 0 15px rgb(63, 57, 57);
 }
 
 img{
     /* flex-direction: row; */
     width:100%;
-    height:90%;
-    
-
-
+    height:90%;   
 }
-
-
 
   footer {
     display: flex;
