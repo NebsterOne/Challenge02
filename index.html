@@ -13,17 +13,17 @@
       <h1>Ned Zatezalo</h1>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Resources</a></li>
+          <a href="#">Home</a>
+          <a href="#" title="Points at About me section">About</a>
+          <a href="#contactme" title="Go to Contact me section">Contact</a>
+
         </ul>
       </nav>
     </header>
 
     <main>
       <section>
-        <div class="intro">
+        <div id="aboutme" class="intro">
           <h2>About Me... </h2>
           <div>
             
@@ -31,13 +31,20 @@
             
             
             <p>
-              However, jumping into CSS isn't always straightforward. As it
-              often goes in web development, formatting visual styles on a
-              website requires an explicit level of detail and a precise command
-              of the language. Remember that creating web applications isn't a
-              drag-and-drop process; colors, aesthetics, fonts, and visual
-              layouts all need to be coded in order for every browser to
-              consistently render the page correctly.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Vivamus et condimentum mi. Morbi et dictum mi. Cras 
+              malesuada eu nulla eu gravida. Suspendisse ultricies 
+              ante nulla, sit amet vulputate urna faucibus pulvinar. 
+              Vivamus eget purus quis felis faucibus interdum. Donec 
+              maximus nulla commodo felis rutrum, ut fermentum augue
+              lobortis. Etiam non justo maximus, accumsan risus ac, 
+              condimentum eros. Morbi imperdiet viverra eros eu 
+              venenatis. Integer mauris velit, viverra eget justo 
+              eget, dictum pellentesque nisl. Aenean libero diam, 
+              ultricies dictum eros a, tempus blandit lorem. Maecenas
+              dictum efficitur massa eget finibus. Etiam eget massa
+              nec sem volutpat malesuada ut id nulla. Maecenas vitae
+              ante consectetur, ornare nunc a, rutrum est.
             </p>
           </div>
         </div>
@@ -53,63 +60,42 @@
 
           <div class="topwork">
             
-            <img src="./assets/images/workinprogress.jpg" atl="my work large image">
-            <heads>My Current Project</heads>
+            <img src="./assets/images/workinprogress.jpg" alt="my work in progress">
+            <heads><h4>My Current Project</h3></heads>
           </div>
 
           <div class="workdone">
             
             <section class="work">
               
-              <img src="./assets/images/homer.png.png" atl="my work image one">
+              <img src="./assets/images/homer.png.png" alt="latest work done">
               <heads>My Work 1</heads>
             </section>
             <section class="work">
-             <img src="./assets/images/homer.png.png" atl="my work image two">
+             <img src="./assets/images/homer.png.png" alt="another projcet completed done">
              <heads>My Work 2</heads>
             </section>
             <section class="work">
-              <img src="./assets/images/homer.png.png" atl="my work image three">
+              <img src="./assets/images/homer.png.png" alt="third project on this list">
               <heads>My Work 3</heads>
             </section>
 
 
           </div>
-
-
-
-        
-          <!-- <article> -->
-          <div class="contactMe">
-            <h3>
-              Contact Me
-            </h3>
-            <ul class="links">
-              <li>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::before">
-                  E-mail
-                </a>
-              </li>
-              <li>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::after">
-                  LinkedIn
-                </a>
-              </li>
-
-              <li>
-                <a href="https://www.w3schools.com/css/css_pseudo_elements.asp">
-                  GitHub
-                </a>
-              </li>
-            </ul>
-          </div>
-        <!-- </article> -->
-      </section>
-
+      
+      
     </main>
 
     <footer>
-      <span>Thanks for visiting!</span>
+      <div id="contactme" class="contactme">
+        <!-- <h4> 2022 Ned Zatezalo</h4> -->
+        <nav>
+          <ul>
+            <a href="mailto:ned.zatezalo@gmail.com">Email</a>
+            <a href="https://linkedin.com">Linkedin</a>
+            <a href="https://github.com">Github</a>
+          </ul>
+        </nav>
     </footer>
   </body>
 </html>
